@@ -118,3 +118,6 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on how to contrib
 ## License
 
 This project is licensed under the [Apache 2.0 License](LICENSE).
+
+This project is based on [gitflow-in-azure-devops](https://github.com/aruanoguate/gitflow-in-azure-devops) by [@aruanoguate](https://github.com/aruanoguate). 
+Custom modifications have been made.
