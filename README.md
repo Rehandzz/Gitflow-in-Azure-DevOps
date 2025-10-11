@@ -20,8 +20,8 @@ It enables developers to use familiar `git flow`‑style commands while enforcin
 
 ## Prerequisites
 
-- Git installed  
-- Azure DevOps CLI / VSTS CLI configured  
+- [Git](https://git-scm.com/downloads) installed  
+- [Azure DevOps CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) / [VSTS CLI](https://github.com/Azure/azure-devops-cli-extension/releases/tag/0.1.4) configured  
 - Personal Access Token (PAT) with rights to create PRs & branches  
 - (Optionally) Azure DevOps / TFS instance URL and permissions  
 
@@ -30,4 +30,4 @@ It enables developers to use familiar `git flow`‑style commands while enforcin
 ```bash
 git clone https://github.com/YourOrg/Gitflow-in-Azure-DevOps.git
 cd Gitflow-in-Azure-DevOps
-./install.sh    # or install.bat on Windows
+./install.bat
