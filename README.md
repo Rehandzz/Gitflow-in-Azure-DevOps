@@ -10,6 +10,18 @@ This tool helps you implement the **GitFlow** branching strategy in Azure DevOps
 
 It enables developers to use familiar `git flow`‑style commands while enforcing workflows via pull requests rather than direct merges.
 
+## Branching Model
+
+This project uses the [**GitFlow**](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) branching strategy:
+
+- `main`: production-ready code
+- `develop`: integration branch for new features
+- `feature/*`: feature branches created from `develop`
+- `release/*`: release branches created from `develop`
+- `hotfix/*`: urgent fixes created from `main`
+
+![Gitflow Diagram](https://nvie.com/img/git-model@2x.png)
+
 ## Key Features
 
 - Initialize GitFlow branches (`develop`, `release`, `hotfix`) in Azure DevOps  
