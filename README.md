@@ -66,20 +66,20 @@ git ffs $feature_branch_name
 ```
 When you're done with your changes, you can publish the branch to develop by running any of the below commands on a checked out feature branch, this will create a pull request on the server:
 ```bash
-git flow.feature.publish
-git ffp  
+git flow.feature.publish "$PR_title | $PR_description | $reviewer_id"
+git ffp "$PR_title | $PR_description | $reviewer_id"
 ```
 
 Release branch workflow
 You can create a new release branch by running any of the below commands:
 ```bash
 git flow.release.start $release_branch_name
-git frs $release_branch_name
+git frs $release_branch_name 
 ```
 When you're done with your adjustments, you can publish the branch to develop and master by running any of the below commands on a checked out release branch, this will create two pull request on the server:
 ```bash
-git flow.release.publish
-git frp  
+git flow.release.publish "$PR_title | $PR_description | $reviewer_id"
+git frp "$PR_title | $PR_description | $reviewer_id"
 ```
 In cases when you're certain that no adjustments are needed before the release, you can perform the two above actions at the same time by running any of the below commands:
 ```bash
@@ -92,12 +92,11 @@ You can create a new hotfix branch by running any of the below commands:
 ```bash
 git flow.hotfix.start $hotfix_branch_name
 git fhs $hotfix_branch_name
-git flow.hotfix.publish                 # or git fhp  
 ```
 When you're done with your changes, you can publish the branch to develop and master by running any of the below commands on a checked out hotfix branch, this will create two pull request on the server:
 ```bash
-git flow.hotfix.publish
-git fhp  
+git flow.hotfix.publish "$PR_title | $PR_description | $reviewer_id"
+git fhp "$PR_title | $PR_description | $reviewer_id"
 ```
 
 Other utilities
