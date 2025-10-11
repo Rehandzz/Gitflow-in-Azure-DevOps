@@ -1,8 +1,6 @@
 # Gitflow for Azure DevOps
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)  
-[![Build Status](https://img.shields.io/badge/build-not%20configured-lightgrey)](link-to-ci)  
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](releases)  
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)   [![Build Status](https://img.shields.io/badge/build-not%20configured-lightgrey)](link-to-ci)   [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](releases)  
 
 ## Description
 
@@ -43,3 +41,52 @@ This project uses the [**GitFlow**](https://www.atlassian.com/git/tutorials/comp
 git clone https://github.com/YourOrg/Gitflow-in-Azure-DevOps.git
 cd Gitflow-in-Azure-DevOps
 ./install.bat
+```
+
+## Usage
+Getting Help
+```bash
+git flow.help
+git fh
+```
+
+Initialize a repository
+```bash
+git flow.init
+git fi
+```
+
+Feature branch workflow
+```bash
+git flow.feature.start my-feature     # or git ffs my-feature  
+git flow.feature.publish               # or git ffp  
+```
+
+Release branch workflow
+```bash
+git flow.release.start v1.0             # or git frs v1.0  
+# finalize release
+git flow.release.publish                # or git frp  
+# (or combined)  
+git flow.release.all v1.0                # or git fra v1.0  
+```
+
+Hotfix branch workflow
+```bash
+git flow.hotfix.start hotfix-123        # or git fhs hotfix-123  
+git flow.hotfix.publish                 # or git fhp  
+```
+
+Other utilities
+```bash
+git general.clean     # clean up merged branches  
+git general.ignore.force   # enforce .gitignore rules  
+```
+
+## Contribution Guidelines
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on how to contribute.
+
+## License
+
+This project is licensed under the [Apache 2.0 License](LICENSE).
