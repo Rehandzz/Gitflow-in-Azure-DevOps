@@ -45,42 +45,71 @@ cd Gitflow-in-Azure-DevOps
 
 ## Usage
 Getting Help
+You can run any of the below commands to get a cheatsheet for the tool:
 ```bash
 git flow.help
 git fh
 ```
 
 Initialize a repository
+To configure a repository to use this tool, you need to execute any of the below commands, this should be done only once per repository:
 ```bash
 git flow.init
 git fi
 ```
 
 Feature branch workflow
+You can create a new feature branch by running any of the below commands:
 ```bash
-git flow.feature.start my-feature     # or git ffs my-feature  
-git flow.feature.publish               # or git ffp  
+git flow.feature.start $feature_branch_name
+git ffs $feature_branch_name
+```
+When you're done with your changes, you can publish the branch to develop by running any of the below commands on a checked out feature branch, this will create a pull request on the server:
+```bash
+git flow.feature.publish
+git ffp  
 ```
 
 Release branch workflow
+You can create a new release branch by running any of the below commands:
 ```bash
-git flow.release.start v1.0             # or git frs v1.0  
-# finalize release
-git flow.release.publish                # or git frp  
-# (or combined)  
-git flow.release.all v1.0                # or git fra v1.0  
+git flow.release.start $release_branch_name
+git frs $release_branch_name
+```
+When you're done with your adjustments, you can publish the branch to develop and master by running any of the below commands on a checked out release branch, this will create two pull request on the server:
+```bash
+git flow.release.publish
+git frp  
+```
+In cases when you're certain that no adjustments are needed before the release, you can perform the two above actions at the same time by running any of the below commands:
+```bash
+git flow.release.all $release_branch_name
+git fra $release_branch_name
 ```
 
 Hotfix branch workflow
+You can create a new hotfix branch by running any of the below commands:
 ```bash
-git flow.hotfix.start hotfix-123        # or git fhs hotfix-123  
+git flow.hotfix.start $hotfix_branch_name
+git fhs $hotfix_branch_name
 git flow.hotfix.publish                 # or git fhp  
+```
+When you're done with your changes, you can publish the branch to develop and master by running any of the below commands on a checked out hotfix branch, this will create two pull request on the server:
+```bash
+git flow.hotfix.publish
+git fhp  
 ```
 
 Other utilities
+When you want to do a local cleanup and remove all the branches already merged to develop and master, you can run the below command:
 ```bash
-git general.clean     # clean up merged branches  
-git general.ignore.force   # enforce .gitignore rules  
+git general.clean
+git gcl
+```
+When you want to force the application of the rules in the .gitignore file on an existing repository, you can run the below command:
+```bash
+git general.ignore.force
+git gif
 ```
 
 ## Contribution Guidelines
